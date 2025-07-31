@@ -60,7 +60,7 @@ This document presents a comprehensive breakdown of findings derived from the Ko
 ## 🧩 Cross-Functional Insights
 
 ### 📌 Operational Bottlenecks:
-- Pending orders mostly originated from 3 warehouses — operations should review delay causes.
+- Pending orders investigations should be carried out at each warehouse — operations should review delay causes.
 - Customers with frequent returns (refund cases) had lower LTV — a flag for potential abuse or poor product fit.
 
 ### 🧠 Strategic Opportunities:
