@@ -1,1 +1,77 @@
+# 📈 Kolokart Power BI – Results and Insights
+
+This document presents a comprehensive breakdown of findings derived from the Kolokart Power BI report. It explores patterns in revenue generation, customer segmentation, and product performance while also offering detailed recommendations to improve business operations.
+
+---
+
+## 🧭 1. Overview Page – Business Performance
+
+### 📊 Key Findings:
+- **Total Revenue** increased year-on-year, with the highest sales volume recorded in **2024**. The business appears to be on a growth trajectory.
+- **May** consistently emerged as the peak sales month across all three years, indicating a strong seasonal trend.
+- **Average Order Value (AOV)** remained steady between ₦27,000 and ₦29,000, showing that basket size is consistent across customers and years.
+- The **Order Status Breakdown** revealed that **~92%** of all orders were delivered, **6% shipped**, and **2% pending**. These pending orders may represent fulfillment delays or customer-side issues.
+- **Revenue Trend Line** indicated sharp dips in December and January — likely due to holiday fatigue or inventory constraints.
+
+### 💡 Recommendations:
+- **Double down on Q2 marketing campaigns**, especially in April–May.
+- **Investigate fulfillment delays** tied to pending/shipped orders — consider automating order tracking and shipment reminders.
+- Implement **holiday promotions** to address Q4 slumps, possibly with bundles or time-limited discounts.
+
+---
+
+## 👥 2. Customer Page – Behavior & Segmentation
+
+### 📊 Key Findings:
+- Out of 828 customers, a core group (~150) contributed to over **60%** of revenue, validating the **Pareto Principle**.
+- **Customer Lifetime Value (LTV)** revealed a top-tier segment with lifetime revenues exceeding ₦100,000 — these should be the focus of loyalty efforts.
+- **Order Frequency Segmentation** using NTILE showed:
+  - 25% of customers ordered just once
+  - 50% ordered between 2–4 times
+  - 25% ordered 5+ times
+- The **Country matrix** showed dominant sales from Nigeria, Ghana, and Côte d'Ivoire — however, emerging activity was also seen in Sierra Leone and Senegal.
+
+### 💡 Recommendations:
+- Launch **personalized campaigns** for top LTV customers — early access to sales, loyalty rewards, or tiered memberships.
+- **Re-engagement campaigns** for one-time buyers using discount codes or abandoned cart nudges.
+- Expand **localization efforts** in regions with growing traffic (e.g., French translations for Côte d'Ivoire and Senegal).
+
+### ⚠️ Observations:
+- There’s no gender or age segmentation in the dataset, which limits demographic-based targeting. Consider integrating such data for deeper personas.
+
+---
+
+## 📦 3. Product Page – Revenue and Inventory Drivers
+
+### 📊 Key Findings:
+- Top 10 products drove **~47%** of total revenue.
+- **Clothing** and **Accessories** were the best-selling categories.
+- Conditional formatting on the product table revealed consistent performance from mid-priced products (₦10,000–₦30,000).
+- Several products appeared in the system but had **zero sales** or **missing price values** — a data quality concern.
+
+### 💡 Recommendations:
+- Replenish and promote **top-selling SKUs** regularly to avoid stockouts during peak seasons.
+- Introduce **product bundling strategies** (e.g., socks + shoes or caps + shirts) to increase AOV.
+- Investigate **products with 0 sales** — check for incorrect pricing, lack of visibility on the platform, or inventory issues.
+- Perform regular **data audits** to ensure no missing values or pricing errors in the master product table.
+
+---
+
+## 🧩 Cross-Functional Insights
+
+### 📌 Operational Bottlenecks:
+- Pending orders mostly originated from 3 warehouses — operations should review delay causes.
+- Customers with frequent returns (refund cases) had lower LTV — a flag for potential abuse or poor product fit.
+
+### 🧠 Strategic Opportunities:
+- Identify **promotions or events** tied to peak months to replicate success (e.g., May Flash Sales).
+- Introduce **RFM Analysis** (Recency, Frequency, Monetary) as a next step to sharpen customer segmentation.
+- Enable **real-time dashboards** to support sales/marketing teams with quicker decision-making.
+
+---
+
+## 🎯 Final Thoughts
+
+The Kolokart Power BI dashboard offers a strong analytical foundation for decision-makers. It combines sales, customer, and product data into a single view that not only answers what happened, but also hints at _why_ it happened — and what to do next. With deeper segmentation and operational tweaks, Kolokart can scale further while optimizing revenue and customer experience.
+
 
