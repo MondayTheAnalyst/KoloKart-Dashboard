@@ -1,38 +1,82 @@
-# 📈 Kolokart Power BI – Results and Insights
+# 📊 Kolokart (Power BI Project)
 
-This document captures the most relevant findings derived from the Kolokart Power BI dashboard. The analysis spanned three major areas: overall sales performance, customer behavior, and product insights.
+## 🛍️ Project Story
 
----
-
-## 🧭 1. Overview Page Insights
-
-- **Total Revenue** and **Order Volume** were consistently strong, with peak performance in **Q2** and especially in the month of **May**.
-- **Average Order Value (AOV)** remained stable across the three years, indicating consistency in customer spending.
-- **Order Status Distribution** shows the majority of orders are successfully delivered. However, a small number of pending or shipped orders may require fulfillment attention.
-- The **Monthly Revenue Trend** visual identified seasonal spikes and year-end dips, useful for future marketing campaigns.
-- **Top Performing Products** contributed significantly to total revenue, with a few items consistently dominating monthly sales charts.
+This Power BI report is the visual companion to my Kolokart SQL project — a fictional e-commerce brand created to reflect the real-world data challenges of online retail. The dashboard brings the data to life through rich, dynamic visuals focused on business performance, customer behavior, and product trends.
 
 ---
 
-## 👥 2. Customer Page Insights
+## 🧭 Dashboard Overview
 
-- The **Customer Lifetime Value (LTV)** visual helped isolate high-value customers, many of whom placed frequent orders and contributed disproportionately to total revenue.
-- The **Order Frequency Segmentation (NTILE)** grouped customers based on how often they made purchases. Top segments displayed higher loyalty and AOV.
-- The **Country-wise Sales Matrix** highlighted a concentration of revenue from key West African markets like Nigeria and Ghana, with some smaller contributions from tourist-heavy regions.
-- A **Customer Contribution Treemap** showed that the top 10% of customers were responsible for nearly 40% of all revenue, confirming the 80/20 rule of retail (Pareto Principle).
+The Power BI report is divided into three core pages:
+
+### 1️⃣ Overview Page
+Gives a high-level summary of the business performance, with clear KPIs and visual highlights.
+
+**Key Features:**
+- Total Revenue and Orders
+- Average Order Value
+- Order Status Breakdown (Delivered, Shipped, etc.)
+- Revenue Trend Line Chart (Monthly)
+- Top Products by Revenue (Bar Chart)
+
+### 2️⃣ Customer Page
+Focuses on customer behavior and segmentation insights.
+
+**Key Visuals:**
+- Customer Lifetime Value (LTV) 
+- Order Frequency Segmentation (NTILE)
+- Average Order Value by Country 
+
+### 3️⃣ Product Page
+Highlights product-level performance and contribution to overall sales.
+
+**Key Visuals:**
+- Product Table with Category, Revenue, Units Sold, and % of Total Revenue
+- Conditional Formatting for Top Performers
+- Searchable Product Breakdown
+
+Each page is interactive, filterable, and designed to simulate a dashboard an actual e-commerce manager would use to track performance.
 
 ---
 
-## 📦 3. Product Page Insights
+## 📂 Repository Structure
 
-- The **Product Table** with conditional formatting revealed standout performers both in terms of quantity sold and total revenue.
-- Categories like **Clothing** and **Accessories** dominated sales, suggesting a strong product-market fit.
-- The **% of Total Revenue** column helped stakeholders focus attention on the few SKUs that drove the majority of business impact.
-- Underperforming products were also identified, allowing for potential delisting or discount strategy in future campaigns.
+```
+Kolokart_PowerBI_Project/
+│
+├── dashboard/
+│   └── KoloKart_Dashboard.pbix
+│
+├── documentation/
+│   └── Results_and_Insights.md
+│ 
+├── images/
+│   └── page_1.png
+│   └── page_2.png
+│   └── page_3.png
+│
+└── README.md   ← (this file)
+```
 
 ---
 
-## 🎯 Final Thoughts
+## 📈 Insights Delivered
 
-The Kolokart dashboard made it easy to drill down into performance metrics, identify customer value segments, and review product effectiveness. By combining clean modeling in SQL Server with interactive Power BI visuals, this project simulates how a real business would operate its analytics stack and decision-making process.
+This Power BI dashboard enables stakeholders to:
+
+- Spot peak sales months and seasonal trends
+- Identify top-performing customers and their contribution to revenue
+- Monitor order fulfillment performance by status
+- Compare countries with the highest customer spend
+- Segment customers by order frequency and lifetime value
+- Analyze top-performing products by revenue and units sold
+
+📄 Full insights are summarized in: `documentation/Results_and_Insights.md`
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates my ability to transform structured SQL data into impactful dashboards that answer business-critical questions — the kind marketing, sales, and operations teams care about every day.
 
